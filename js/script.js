@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $('.modal').modal('show');
+
+    
     // setTimeout(function(){$('.modal').fadeOut();}, 5000);
 
   //   $('#myClose').on('click', function() {

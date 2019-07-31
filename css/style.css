@@ -16,10 +16,6 @@
 background-color: #c4cdd6;
 }
 
-.modal-body {
-/*  vertical-align: middle;*/
-}
-
 .modal-body btn-warning {
   position: absolute;
   top: 50%;
@@ -27,18 +23,17 @@ background-color: #c4cdd6;
 }
 
 .fade {
-  /*transition: none;*/
-  transition: opacity 0s linear;
+  transition: none;
+  transition: none;
 }
 
 .modal.in .modal-dialog {
-  /*transform: none;*/
+  transform: none;
 }
 
 .modal.fade .modal-dialog {
-  /*transform: none;*/
-  /*transition: none;*/
-  transition: transform 0s ease-out,-webkit-transform 0s ease-out,-o-transform 0s ease-out;
+  transform: none;
+  transition: none;
 }
 
 .modal-dialog {
@@ -60,16 +55,8 @@ background-color: #c4cdd6;
   display: none;
 }
 
-.main {
-
-}
-
 .item img {
   width: 100%;
-}
-
-.carousel-inner>.item>img {
-  height: 100vh;
 }
 
 .carousel-inner>.item>.img-mobile {
